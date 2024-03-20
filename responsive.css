@@ -1,0 +1,75 @@
+@media screen and (max-width : 936px){
+    .login-sign{
+        display: none;
+    }
+}
+@media screen and (max-width : 806px){
+    /* .hero_section{
+        margin-top: 3rem;
+    } */
+    header > nav > #manu{
+        display: inline;
+        padding: 5px;
+    }
+    header > nav > #manu > img{
+        width: 1.60rem;
+    }
+    header > nav {
+        width: 100%;
+    }
+    header nav ul {
+        width: 100%;
+        background: #333;
+        position: absolute;
+        top: -8.85rem;
+        /* right: -120%; */
+        padding: 10px;
+        flex-wrap: wrap;
+        gap: 1.25rem;
+    }
+    header nav ul li a{
+        color: #fff;
+    }
+}
+@media screen and (max-width : 912px){
+    .left_side{
+        width: 90%;
+    }
+    .search{
+        width: 90%;
+        justify-content: space-around;
+    }
+
+    .left_side > p{
+        margin-top: .50rem;
+        margin-bottom: .50rem;
+    }
+    .hero_section{
+        height: 75vh;
+    }
+    .hero_section .right_side{
+        display: none;
+    }
+}
+@media screen and (max-width : 466px){
+    .left_side{
+        width: 100%;
+    }
+    .search{
+        width: 100%;
+    }
+}
+@media screen and (max-width : 352px){
+    .job_grid_version{
+        height: 85vh;
+    }
+    .job_grid_version .content .content{
+        width: 100%;
+    }
+}
+@media screen and (max-width : 770px){
+    .download_child{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
